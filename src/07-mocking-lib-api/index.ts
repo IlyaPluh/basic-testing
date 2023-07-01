@@ -1,4 +1,5 @@
-import axios from 'axios';
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import axios, { AxiosResponse } from 'axios';
 import { throttle } from 'lodash';
 
 export const THROTTLE_TIME = 5000;
